@@ -1,5 +1,11 @@
 # @sample/pkg-1
 
+## 0.0.6
+
+### Patch Changes
+
+- f07491d: Added smaple for release
+
 ## 0.0.5
 
 ### Patch Changes
