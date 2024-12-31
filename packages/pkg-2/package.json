@@ -9,7 +9,7 @@
   "license": "MIT",
   "dependencies": {},
   "scripts": {
-    "publish": "npm publish",
+    "publish": "npm changeset publish",
     "node": "node index.js"
   },
   "devDependencies": {
