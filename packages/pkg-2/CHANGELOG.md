@@ -1,5 +1,11 @@
 # @sample/pkg-2
 
+## 0.0.9
+
+### Patch Changes
+
+- 08bc3c7: Sample PKG 2
+
 ## 0.0.8
 
 ### Patch Changes
