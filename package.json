@@ -7,13 +7,16 @@
     "packages/*"
   ],
   "scripts": {
-    "release": "cd packages/pkg-1 && npm run publish && cd ../pkg-2 && npm run publish"
+    "release": "turbon run publish",
+    "node": "turbo run node"
   },
   "dependencies": {
     "@changesets/cli": "^2.27.11",
     "changeset": "^0.2.6"
   },
+  "packageManager": "yarn@1.22.22",
   "devDependencies": {
-    "commit-and-tag-version": "12.5.0"
+    "commit-and-tag-version": "12.5.0",
+    "turbo": "^2.3.3"
   }
 }

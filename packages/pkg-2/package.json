@@ -8,7 +8,8 @@
   },
   "dependencies": {},
   "scripts": {
-    "publish": "npm publish"
+    "publish": "npm publish",
+    "node": "node index.js"
   },
   "devDependencies": {
     "commit-and-tag-version": "12.5.0"
