@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       option:
-        description: 'Please select an option'
+        description: "Please select an option"
         required: true
-        default: 'option1'
+        default: "option1"
         type: choice
         options:
           - option1
@@ -18,4 +18,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print selected option
-        run: echo "You selected: ${{ github.event.inputs.option }}"
+        run: echo "Hello"
