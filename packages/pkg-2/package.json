@@ -6,6 +6,7 @@
   "publishConfig": {
     "access": "public"
   },
+  "license": "MIT",
   "dependencies": {},
   "scripts": {
     "publish": "npm publish",
