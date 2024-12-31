@@ -4,14 +4,19 @@ on:
   workflow_dispatch:
     inputs:
       option:
-        description: "Please select an option"
+        description: "Relase Type:"
         required: true
-        default: "option1"
+        default: "patch"
         type: choice
         options:
-          - option1
-          - option2
-          - option3
+          - major
+          - minor
+          - patch
+          - alpha
+      text_input:
+        description: "Enter message" # Describes the input
+        required: true # Marks this input as required
+        default: "Default message"
 
 jobs:
   build:
