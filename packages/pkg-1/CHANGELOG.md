@@ -1,5 +1,11 @@
 # @sample/pkg-1
 
+## 0.0.5
+
+### Patch Changes
+
+- 32becd8: Sample testing
+
 ## 0.0.4
 
 ### Patch Changes
