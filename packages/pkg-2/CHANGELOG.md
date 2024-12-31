@@ -1,5 +1,11 @@
 # @sample/pkg-2
 
+## 0.0.4
+
+### Patch Changes
+
+- 56e3afe: Testing publishing
+
 ## 0.0.3
 
 ### Patch Changes
