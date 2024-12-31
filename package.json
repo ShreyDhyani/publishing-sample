@@ -7,7 +7,7 @@
     "packages/*"
   ],
   "scripts": {
-    "release": "turbon run publish",
+    "release": "turbo run publish",
     "node": "turbo run node"
   },
   "dependencies": {
