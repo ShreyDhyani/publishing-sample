@@ -1,0 +1,1 @@
+console.log(">> HERE IN PACKAGE 2");
