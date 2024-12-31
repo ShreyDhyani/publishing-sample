@@ -6,6 +6,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "release": "cd packages/pkg-1 && npm run publish && cd ../pkg-2 && npm run publish"
+  },
   "dependencies": {
     "@changesets/cli": "^2.27.11",
     "changeset": "^0.2.6"

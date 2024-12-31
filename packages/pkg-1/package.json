@@ -3,6 +3,9 @@
   "version": "0.0.2",
   "type": "module",
   "main": "./index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {},
   "scripts": {
     "publish": "npm publish"
