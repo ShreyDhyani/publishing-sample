@@ -15,6 +15,10 @@
     "node": {
       "persistent": true,
       "cache": false
+    },
+    "publish": {
+      "persistent": true,
+      "cache": false
     }
   }
 }
