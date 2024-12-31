@@ -1,0 +1,21 @@
+name: Select Option Workflow
+
+on:
+  workflow_dispatch:
+    inputs:
+      option:
+        description: 'Please select an option'
+        required: true
+        default: 'option1'
+        type: choice
+        options:
+          - option1
+          - option2
+          - option3
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print selected option
+        run: echo "You selected: ${{ github.event.inputs.option }}"
