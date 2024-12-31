@@ -1,5 +1,11 @@
 # @sample/pkg-1
 
+## 0.0.2
+
+### Patch Changes
+
+- 335caac: Sample test
+
 ## 0.0.1
 
 ### Patch Changes
