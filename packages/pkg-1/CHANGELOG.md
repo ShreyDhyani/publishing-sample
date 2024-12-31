@@ -1,5 +1,11 @@
 # @sample/pkg-1
 
+## 0.0.8
+
+### Patch Changes
+
+- bf88cb1: Sample
+
 ## 0.0.7
 
 ### Patch Changes
