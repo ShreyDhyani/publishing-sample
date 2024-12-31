@@ -1,5 +1,11 @@
 # @sample/pkg-2
 
+## 0.0.7
+
+### Patch Changes
+
+- 45513d6: Sample for releasing
+
 ## 0.0.6
 
 ### Patch Changes
