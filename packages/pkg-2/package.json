@@ -1,5 +1,5 @@
 {
-  "name": "@sample/pkg-2",
+  "name": "sample-pkg-2",
   "version": "0.0.2",
   "type": "module",
   "main": "./index.js",
