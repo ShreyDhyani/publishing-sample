@@ -6,7 +6,10 @@
   "workspaces": [
     "packages/*"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "@changesets/cli": "^2.27.11",
+    "changeset": "^0.2.6"
+  },
   "devDependencies": {
     "commit-and-tag-version": "12.5.0"
   }
